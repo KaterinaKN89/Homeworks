@@ -4,33 +4,33 @@ import org.openqa.selenium.WebDriver;
 
 import static com.telerikacademy.testframework.Utils.getConfigPropertyByKey;
 
-public class LoginPage extends BaseTrelloPage {
+public class LoginPage extends BaseJiraPage {
 
     public static String boardId = null;
 
     public LoginPage(WebDriver driver) {
-        super(driver, "trello.loginPage");
+        super(driver, "jira.loginPage");
     }
 
     public void loginUser(String userKey) {
-        String username = getConfigPropertyByKey("trello.users." + userKey + ".username");
-        String password = getConfigPropertyByKey("trello.users." + userKey + ".password");
+        String username = getConfigPropertyByKey("jira.users." + userKey + ".username");
+        String password = getConfigPropertyByKey("jira.users." + userKey + ".password");
 
         navigateToPage();
         assertPageNavigated();
 
-        actions.waitForElementVisible("trello.loginPage.username");
+        actions.waitForElementVisible("jira.loginPage.username");
+        actions.typeValueInField(username, "jira.loginPage.username");
 
-        actions.typeValueInField(username, "trello.loginPage.username");
-        actions.waitForElementVisible("trello.loginPage.loginButton");
-        actions.clickElement("trello.loginPage.loginButton");
+        actions.waitForElementVisible("jira.loginPage.EmailLoginButton");
+        actions.clickElement("jira.loginPage.EmailLoginButton");
 
-        actions.waitForElementClickable("trello.loginPage.loginSubmitButton");
-        actions.waitForElementClickable("trello.loginPage.password");
+        actions.waitForElementVisible("jira.loginPage.password");
+        actions.typeValueInField(password, "jira.loginPage.password");
 
-        actions.typeValueInField(password, "trello.loginPage.password");
-        actions.clickElement("trello.loginPage.loginSubmitButton");
+        actions.waitForElementVisible("jira.loginPage.loginSubmitButton");
+        actions.clickElement("jira.loginPage.loginSubmitButton");
 
-        actions.waitForElementVisible("trello.header.member.menuButton");
+   //     actions.waitForElementVisible("trello.header.member.menuButton");
     }
 }

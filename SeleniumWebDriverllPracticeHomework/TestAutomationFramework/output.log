@@ -1,18 +1,16 @@
-2023-09-01 17:56:11,577 INFO  [main] Initializing WebDriver
-2023-09-01 17:56:16,550 INFO  [main] Initializing WebDriver
-2023-09-01 17:56:16,553 INFO  [main] Initializing WebDriver
-2023-09-01 17:56:18,806 INFO  [main] Clicking on element trello.loginPage.loginButton
-2023-09-01 17:56:21,160 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
-2023-09-01 17:56:25,024 INFO  [main] Initializing WebDriver
-2023-09-01 17:56:25,054 INFO  [main] Clicking on element trello.header.create.menuButton
-2023-09-01 17:56:25,296 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
-2023-09-01 17:56:26,252 INFO  [main] Clicking on element trello.create.board.submitButton
-2023-09-01 17:56:26,481 INFO  [main] Initializing WebDriver
-2023-09-01 17:56:27,608 INFO  [main] Clicking on element trello.board.menuButton
-2023-09-01 17:56:27,859 INFO  [main] Clicking on element trello.board.close
-2023-09-01 17:56:28,103 INFO  [main] Clicking on element trello.board.confirmClose
-2023-09-01 17:56:28,885 INFO  [main] Clicking on element trello.board.permanentDelete
-2023-09-01 17:56:29,129 INFO  [main] Clicking on element trello.board.confirmDelete
-2023-09-01 17:56:29,372 INFO  [main] Clicking on element trello.header.member.menuButton
-2023-09-01 17:56:29,609 INFO  [main] Clicking on element trello.logOutButton
-2023-09-01 17:56:31,028 INFO  [main] Quitting WebDriver
+2023-09-13 03:49:30,594 INFO  [main] Initializing WebDriver
+2023-09-13 03:49:37,086 INFO  [main] Initializing WebDriver
+2023-09-13 03:49:37,089 INFO  [main] Initializing WebDriver
+2023-09-13 03:49:37,691 INFO  [main] Clicking on element jira.loginPage.EmailLoginButton
+2023-09-13 03:49:38,012 INFO  [main] Clicking on element jira.loginPage.loginSubmitButton
+2023-09-13 03:49:38,234 INFO  [main] Initializing WebDriver
+2023-09-13 03:49:46,598 INFO  [main] Clicking on element jira.projects.dropDown
+2023-09-13 03:49:47,964 INFO  [main] Clicking on element jira.viewAllProjects
+2023-09-13 03:49:48,402 INFO  [main] Clicking on element jira.openCreatedProject
+2023-09-13 03:49:48,754 INFO  [main] Initializing WebDriver
+2023-09-13 03:49:49,426 INFO  [main] Clicking on element jira.createIssue.button
+2023-09-13 03:49:52,464 INFO  [main] Clicking on element jira.createIssue.confirmCreate
+2023-09-13 03:49:54,339 INFO  [main] Clicking on element jira.createIssue.viewIssueButton
+2023-09-13 03:49:55,407 INFO  [main] Clicking on element jira.changeIssueTypeButton
+2023-09-13 03:49:55,770 INFO  [main] Clicking on element jira.changeIssueType.bug
+2023-09-13 03:49:56,039 INFO  [main] Quitting WebDriver

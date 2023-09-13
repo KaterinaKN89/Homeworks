@@ -13,7 +13,7 @@ public class BaseTest {
     @BeforeClass
     public static void setUp() {
 
-        UserActions.loadBrowser("trello.homePage");
+        UserActions.loadBrowser("jira.loginPage");
 
     }
 
